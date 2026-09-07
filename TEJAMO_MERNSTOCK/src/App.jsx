@@ -1,5 +1,6 @@
 import StudentCard from "./components/studentCard.jsx"
 import Subjects from "./components/subjects.jsx";
+import {BrowserRouter,routes,route, Link} from "react-router-dom";
 
 function App(){
   return(

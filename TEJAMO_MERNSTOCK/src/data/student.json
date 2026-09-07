@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "John",
+        "age": 26,
+        "birthday": "8/3/2000",
+        "studNum": 202407425,
+        "course": "BSIT",
+        "section": "3-7"
+
+    },
+    {
+        "id": 2,
+        "name": "Paula",
+        "age": 20,
+        "birthday": "1/6/2006",
+        "studNum": 202454216,
+        "course": "BSIT",
+        "section": "3-7"
+    },
+    {
+        "id": 3,
+        "name": "Illa",
+        "age": 14,
+        "birthday": "3/9/2002",
+        "studNum": 202412341,
+        "course": "BSIT",
+        "section": "3-7"
+    }
+]
