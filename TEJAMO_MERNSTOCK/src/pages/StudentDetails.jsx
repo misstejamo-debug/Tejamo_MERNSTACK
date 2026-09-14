@@ -1,29 +1,7 @@
-import students from "../data/student";
-import {BrowserRouter,Routes,Route, Link} from "react-router-dom";
 export default function StudentDetails(){
+    return(
+        <div>
 
-const {id} = useParams();
-const studentid =parseInt(id);
-
-const student = students.find(
-(student)=>student.id === ParseInt(id)
-);
-
-if(!student) {
-    return <h2>Student not found!</h2>
-}
-
-return(
-    <div>
-        <h2>All details of {student.name}</h2>
-        <p><b>ID</b>{student.id}</p>
-        <p><b>Age</b>{student.age}</p>
-
-        <Link to="/students">
-        <button>
-            Leave
-        </button>
-        </Link>
-    </div>
-);
+        </div>
+    )
 }
