@@ -1,6 +1,6 @@
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from "./pages/Home";
-import StudentList from "./pages/StudentList";
+import StudentList from "./pages/studentList"
 import StudentDetails from "./pages/StudentDetails";
 import NavBar from "./components/NavBar";
 
