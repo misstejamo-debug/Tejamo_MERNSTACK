@@ -1,9 +1,9 @@
 import students from "../data/student";
-import {BrowserRouter,routes,route, Link} from "react-router-dom";
+import {BrowserRouter,Routes,Route, Link} from "react-router-dom";
 export default function StudentDetails(){
 
 const {id} = useParams();
-const studentId =parseInt(id);
+const studentid =parseInt(id);
 
 const student = students.find(
 (student)=>student.id === ParseInt(id)

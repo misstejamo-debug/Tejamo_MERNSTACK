@@ -1,15 +1,12 @@
-function studentCard ({id,name,age,birthday,studNum,course,section}){
-    return(
-        <div>
-            <p>ID:            {id}</p>
-            <p>Name:          {name}</p>
-            <p>Age:           {age}</p>
-            <p>Birthday:      {birthday}</p>
-            <p>Student Number:{studNum}</p>
-            <p>Course:        {course}</p>
-            <p>Section:       {section}</p>     
-        </div>
-    ) 
-}
+import { Link } from "react-router-dom";
 
-export default studentCard;
+export default function studentCard({student: {id, name, studentNumber, course, section, age}}){
+    return(
+        <div className="flex flex-col gap-2 border-2 border-gray-100 rounded-lg p-4">
+            <h2 className="text-lg font-bold">{student.name}</h2>
+            <p>Student Number: {studentNumber}</p>
+            <p>Course: {course}</p>
+            <Link to= {`/students/${id}`}>View Details</Link>
+        </div>
+    )
+}

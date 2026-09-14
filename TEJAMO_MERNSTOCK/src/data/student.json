@@ -1,30 +1,42 @@
 [
     {
-        "id": 1,
-        "name": "John",
-        "age": 26,
-        "birthday": "8/3/2000",
-        "studNum": 202407425,
-        "course": "BSIT",
-        "section": "3-7"
-
+        "id" : 1,
+        "name" : "Jessa",
+        "studentNumber": "S01234",
+        "course" : "BSIT",
+        "section" : "3-7",
+        "email" : "jissa@example.com"
     },
     {
-        "id": 2,
-        "name": "Paula",
-        "age": 20,
-        "birthday": "1/6/2006",
-        "studNum": 202454216,
-        "course": "BSIT",
-        "section": "3-7"
+        "id" : 2,
+        "name" : "Hailey",
+        "studentNumber": "S033224",
+        "course" : "BSEM",
+        "section" : "3-2",
+        "email" : "hailey@example.com"
     },
     {
-        "id": 3,
-        "name": "Illa",
-        "age": 14,
-        "birthday": "3/9/2002",
-        "studNum": 202412341,
-        "course": "BSIT",
-        "section": "3-7"
+        "id" : 3,
+        "name" : "Ashley",
+        "studentNumber": "S0155554",
+        "course" : "BSED",
+        "section" : "3-4",
+        "email" : "ashley@example.com"
+    },
+    {
+        "id" : 4,
+        "name" : "Luke",
+        "studentNumber": "S0532526",
+        "course" : "BSCS",
+        "section" : "3-9",
+        "email" : "luke@example.com"
+    },
+    {
+        "id" : 5,
+        "name" : "Kalix",
+        "studentNumber": "S0324543",
+        "course" : "BSBA",
+        "section" : "3-1",
+        "email" : "kalix@example.com"
     }
 ]

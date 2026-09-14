@@ -1,12 +1,10 @@
-import {BrowserRouter, Routes, Route, Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 export default function NavBar(){
-return(
-    <BrowserRouter>
-        <nav>
-            <Link to ="/pages/Home">Home</Link>
-            <Link to="/students" style="">Students</Link>
+    return(
+        <nav className="flex flex row justify-left py-2 py-4 bg-yellow-100 text-black gap-4 ">
+            <Link to="/">Home</Link>
+            <Link to="/students">Students</Link>
         </nav>
-    </BrowserRouter>
-)
+    )
 }
